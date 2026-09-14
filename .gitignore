@@ -1,0 +1,37 @@
+# ===== Keil 编译产物 =====
+*.o
+*.d
+*.axf
+*.crf
+*.lnp
+*.lst
+*.map
+*.htm
+*.dep
+*.iex
+*.uvguix.*
+OBJ/
+Listings/
+Objects/
+DebugConfig/
+RTE/
+
+# ===== LVGL third_party 中工程未使用的大体积资源 =====
+# (工程只编译 lvgl/src, demo/examples 素材约 100MB)
+stm32/third_party/lvgl/demos/
+stm32/third_party/lvgl/examples/
+stm32/third_party/lvgl/env_support/
+stm32/third_party/lvgl/scripts/
+stm32/third_party/lvgl/tests/
+stm32/third_party/lvgl/docs/
+
+# ===== 临时/备份文件 =====
+*.bak
+*.tmp
+~$*
+keilkilll.bat 输出/
+
+# ===== 系统/工具 =====
+.workbuddy/
+.DS_Store
+Thumbs.db
